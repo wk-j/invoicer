@@ -12,7 +12,7 @@ namespace Invoicer.Console
     {
         public void Go()
         {
-            new InvoicerApi(SizeOption.A4, OrientationOption.Landscape, "£")
+            new InvoicerApi(SizeOption.A4, OrientationOption.Portrait, "£")
                 .TextColor("#CC0000")
                 .BackColor("#FFD6CC")
                 .Image(@"..\..\images\vodafone.jpg", 125, 27)
