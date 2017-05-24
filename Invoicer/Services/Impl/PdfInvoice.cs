@@ -111,7 +111,10 @@ namespace Invoicer.Services.Impl
         private void DefineStyles()
         {
             MigraDoc.DocumentObjectModel.Style style = Pdf.Styles["Normal"];
-            style.Font.Name = "Calibri";
+            //style.Font.Name = "Calibri";
+            //style.Font.Name = "IrisUPC";
+            //style.Font.Name = "Tahoma";
+            style.Font.Name = "Leelawadee";
 
             style = Pdf.Styles.AddStyle("H1-20", "Normal");
             style.Font.Size = 20;
